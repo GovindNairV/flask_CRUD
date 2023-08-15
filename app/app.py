@@ -3,10 +3,17 @@ from flask_pymongo import PyMongo
 from bson.json_util import dumps
 from bson.objectid import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
-from config import Config
+import os
 
 app = Flask(__name__)
-app.config.from_object(Config)
+
+mongo_uri = os.environ.get('MONGO_URI')
+# mongo_uri = "mongodb://localhost:27017/CoRider"
+
+if not mongo_uri:
+    raise ValueError("MONGO_URI environment variable is not set.")
+
+app.config['MONGO_URI'] = mongo_uri
 
 mongo = PyMongo(app)
 
