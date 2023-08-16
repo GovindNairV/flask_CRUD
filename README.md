@@ -10,7 +10,7 @@ To run this app on your local machine, make sure the following dependencies are 
 1. Docker
 2. Docker Compose
 3. Postman (for testing)
-4. MongoDB Compass (for better UI to interact with mongodb)
+4. MongoDB Compass (for GUI to interact with mongodb)
 
     
 ## Run Locally
@@ -112,8 +112,8 @@ Stop the app with the following command
 ```
 
 **Example**
-![POST Update a user](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/PUT.png?raw=true)
-![POST Update a user output](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/PUT_output.png?raw=true)
+![PUT Update a user](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/PUT.png?raw=true)
+![PUT Update a user output](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/PUT_output.png?raw=true)
 
 ### Delete the user with specified ID
 
@@ -122,4 +122,6 @@ Stop the app with the following command
 ```
 
 **Example**
-![POST Update a user](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/DELETE.png?raw=true)
+![DELETE a user](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/DELETE.png?raw=true)
+![DELETE a user output](https://github.com/GovindNairV/flask_CRUD/blob/main/Screenshots/DELETE_output.png?raw=true)
+
